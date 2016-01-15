@@ -107,6 +107,8 @@ public class ModuleIntegrationTest extends WrappingServerIntegrationTest {
             assertEquals(4, luanneRecoList.get(3).getScore().getTotalScore(), 0.5);
 
 
+            System.out.println("luanneRecoList.get(0).getScore() = " + luanneRecoList.get(0).getScore());
+
             tx.success();
         }
     }
